@@ -19,8 +19,8 @@ SwitchButton::SwitchButton(QWidget *parent) : QWidget(parent)
 
     m_textColor = QColor(255, 255, 255);
 
-    m_textOn = "";
-    m_textOff = "";
+    m_textOn = "开启";
+    m_textOff = "关闭";
 
     m_step = 0;
     m_startX = 0;

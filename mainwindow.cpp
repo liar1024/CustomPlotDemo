@@ -9,6 +9,8 @@ MainWindow::MainWindow(QWidget *parent)
     m_datePlot.initDataPlot(ui->qcustomPlot);
     m_datePlot.setDataLabel(ui->xAxisLabel);
     ui->qcustomPlot->setMouseTracking(true);
+    ui->switchControl->setTextOn("");
+    ui->switchControl->setTextOff("");
     connect(ui->switchControl, &SwitchButton::statusChanged, this, &MainWindow::onSwitchToggled);
 }
 
