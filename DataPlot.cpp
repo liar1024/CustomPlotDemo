@@ -17,10 +17,9 @@ void DataPlot::initDataPlot(QCustomPlot *customPlotype)
     m_customPlot->xAxis->setLabel("X");
     m_customPlot->yAxis->setLabel("Y");
     m_customPlot->yAxis2->setLabel("Y1");
-    m_customPlot->xAxis->setUpperEnding(QCPLineEnding::esSpikeArrow);
+    m_customPlot->xAxis->setUpperEnding(QCPLineEnding::esSpikeArrow);//箭头
     m_customPlot->yAxis->setUpperEnding(QCPLineEnding::esSpikeArrow);
     m_customPlot->yAxis2->setUpperEnding(QCPLineEnding::esSpikeArrow);
-
 
     m_customPlot->yAxis2->setVisible(true);//显示y轴2
 

@@ -17,14 +17,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     DataPlot.cpp \
-    SwitchControl.cpp \
+    SwitchButton.cpp \
     main.cpp \
     mainwindow.cpp \
     qcustomplot.cpp
 
 HEADERS += \
     DataPlot.h \
-    SwitchControl.h \
+    SwitchButton.h \
     mainwindow.h \
     qcustomplot.h
 

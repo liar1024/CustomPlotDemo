@@ -4,7 +4,8 @@
 #include <QMainWindow>
 #include "qcustomplot.h"
 #include "DataPlot.h"
-#include "SwitchControl.h"
+#include "SwitchButton.h"
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
