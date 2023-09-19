@@ -14,7 +14,22 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QGridLayout" name="gridLayout_4" rowstretch="1,0">
+   <layout class="QGridLayout" name="gridLayout_4" rowstretch="1,15">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
     <item row="0" column="0">
      <widget class="QFrame" name="frame_3">
       <property name="styleSheet">
@@ -30,14 +45,7 @@
        <enum>QFrame::Raised</enum>
       </property>
       <layout class="QGridLayout" name="gridLayout_2">
-       <item row="0" column="1">
-        <widget class="QLabel" name="label_4">
-         <property name="text">
-          <string>y轴可缩放</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="4">
+       <item row="0" column="6">
         <widget class="QFrame" name="frame">
          <property name="styleSheet">
           <string notr="true">QFrame
@@ -83,8 +91,41 @@
          </layout>
         </widget>
        </item>
+       <item row="0" column="4">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>y1轴可缩放</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>y轴可缩放</string>
+         </property>
+        </widget>
+       </item>
        <item row="0" column="0">
         <widget class="QFrame" name="frame_2">
+         <property name="maximumSize">
+          <size>
+           <width>150</width>
+           <height>50</height>
+          </size>
+         </property>
          <property name="styleSheet">
           <string notr="true">QFrame
 {
@@ -121,7 +162,7 @@
             </property>
             <property name="maximumSize">
              <size>
-              <width>16777215</width>
+              <width>100</width>
               <height>30</height>
              </size>
             </property>
@@ -144,7 +185,7 @@
          </layout>
         </widget>
        </item>
-       <item row="0" column="2">
+       <item row="0" column="3">
         <widget class="SwitchControl" name="switchControl" native="true">
          <property name="minimumSize">
           <size>
@@ -160,12 +201,18 @@
          </property>
         </widget>
        </item>
-       <item row="0" column="3">
-        <widget class="QLabel" name="label_5">
-         <property name="text">
-          <string>y1轴可缩放</string>
+       <item row="0" column="5">
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
          </property>
-        </widget>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
        </item>
       </layout>
      </widget>
@@ -178,22 +225,10 @@
         <height>500</height>
        </size>
       </property>
-      <widget class="QFrame" name="frame_4">
-       <property name="geometry">
-        <rect>
-         <x>310</x>
-         <y>70</y>
-         <width>120</width>
-         <height>80</height>
-        </rect>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::StyledPanel</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Raised</enum>
-       </property>
-      </widget>
+      <property name="styleSheet">
+       <string notr="true">background:rgb(255,255,255);
+</string>
+      </property>
      </widget>
     </item>
    </layout>
